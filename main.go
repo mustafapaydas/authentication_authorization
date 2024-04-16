@@ -31,7 +31,7 @@ func init() {
 		ReadTimeout:   120 * time.Second,
 		WriteTimeout:  120 * time.Second,
 		ServerHeader:  "AuthenticationAndAuthorization",
-		AppName:       "SnmpServer",
+		AppName:       "authentication-server",
 		BodyLimit:     10 << 20,
 		Concurrency:   512 * 1024,
 	})
